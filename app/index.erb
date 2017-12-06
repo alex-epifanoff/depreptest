@@ -1,0 +1,18 @@
+<%
+  require 'debrep'
+%>
+
+<div class="container-fluid">
+
+  
+
+  <div class="row">
+    <div class="list-group">
+      <a href="<%= url_for :controller => :Reporting, :action => :makeReport  %>" class="list-group-item">
+        <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+        <%= Rho::DebRep.foo %>
+      </a>
+    </div>
+  </div>
+
+</div>
